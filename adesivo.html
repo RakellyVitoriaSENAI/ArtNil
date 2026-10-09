@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="ptt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/css.css" rel="stylesheet">
+  <title>ArtNil</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="logo ms-lg-5" href="#"><img src="img/Logomarca.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav col-8 my-2  ms-lg-5 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="contato.html">Contato</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Produtos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="banner.html">Banners</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="adesivo.html">Adesivos</a></li>
+            <li><a class="dropdown-item" href="cartao-visita-folders.html">Cartões e Folders</a></li>
+          </ul>
+        </li>
+      </ul>
+      <!-- From Uiverse.io by Lakshay-art -->
+      <div class="grid"></div>
+      <div id="poda">
+        <div class="glow"></div>
+        <div class="darkBorderBg"></div>
+        <div class="darkBorderBg"></div>
+        <div class="darkBorderBg"></div>
+
+        <div class="white"></div>
+
+        <div class="border"></div>
+
+        <div id="main">
+          <input placeholder="Pesquisar..." type="text" name="text" class="input" />
+          <div id="input-mask"></div>
+          <div id="pink-mask"></div>
+          <div class="filterBorder"></div>
+          <div id="filter-icon">
+            <svg
+                    preserveAspectRatio="none"
+                    height="27"
+                    width="27"
+                    viewBox="4.8 4.56 14.832 15.408"
+                    fill="none"
+            >
+              <path
+                      d="M8.16 6.65002H15.83C16.47 6.65002 16.99 7.17002 16.99 7.81002V9.09002C16.99 9.56002 16.7 10.14 16.41 10.43L13.91 12.64C13.56 12.93 13.33 13.51 13.33 13.98V16.48C13.33 16.83 13.1 17.29 12.81 17.47L12 17.98C11.24 18.45 10.2 17.92 10.2 16.99V13.91C10.2 13.5 9.97 12.98 9.73 12.69L7.52 10.36C7.23 10.08 7 9.55002 7 9.20002V7.87002C7 7.17002 7.52 6.65002 8.16 6.65002Z"
+                      stroke="#d6d6e6"
+                      stroke-width="1"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+              ></path>
+            </svg>
+          </div>
+          <div id="search-icon">
+            <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                    height="24"
+                    fill="none"
+                    class="feather feather-search"
+            >
+              <circle stroke="url(#search)" r="8" cy="11" cx="11"></circle>
+              <line
+                      stroke="url(#searchl)"
+                      y2="16.65"
+                      y1="22"
+                      x2="16.65"
+                      x1="22"
+              ></line>
+              <defs>
+                <linearGradient gradientTransform="rotate(50)" id="search">
+                  <stop stop-color="#f8e7f8" offset="0%"></stop>
+                  <stop stop-color="#b6a9b7" offset="50%"></stop>
+                </linearGradient>
+                <linearGradient id="searchl">
+                  <stop stop-color="#b6a9b7" offset="0%"></stop>
+                  <stop stop-color="#837484" offset="50%"></stop>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="banner">
+  <div id="carousel" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/banner/impressao.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/banner/copos%20e%20canecas.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/banner/lonas%20e%20banners.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/banner/materiais%20rigidos.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="redesocial">
+    <a href="https://www.instagram.com/artnilcv/"><img src="img/redes%20sociais/instagram.png" ></a>
+    <a href="https://www.facebook.com/artnil.design.impressao"><img src="img/redes%20sociais/facebook.png" ></a>
+    <a ><img src="img/redes%20sociais/whatsapp.png" ></a>
+  </div>
+</section>
+
+
+<section class="produtos-adesivo">
+  <div class="produtos-adesivo1">
+    <div class="card-produtos" >
+      <div class="content">
+        <img src="img/adesivos/adesivo-rolo.png">
+        <h2>Adesivos</h2>
+        <h4>R$ 30,49</h4>
+        <p>250 unidades - R$0,12/un.</p>
+      </div>
+    </div>
+
+    <div class="card-produtos" >
+      <div class="content">
+        <img src="img/adesivos/etiqueta-quadrada.png">
+        <h2>Adesivos Individuais</h2>
+        <h4>R$ 36,67</h4>
+        <p>500 unidades - R$0,07/un.</p>
+      </div>
+    </div>
+
+    <div class="card-produtos" >
+      <div class="content">
+        <img src="img/adesivos/adesivo-rolo.png">
+        <h2>Etiquetas Adesivas</h2>
+        <h4>R$ 30,49</h4>
+        <p>250 unidades - R$0,12/un.</p>
+      </div>
+    </div>
+
+    <div class="card-produtos" >
+      <div class="content">
+        <img src="img/adesivos/etiqueta-redonda.png">
+        <h2>Adesivos Redondos</h2>
+        <h4>R$ 30,49</h4>
+        <p>250 unidades - R$0,12/un.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="produtos-adesivo1">
+    <div class="card-produtos" >
+      <div class="content">
+        <img src="img/adesivos/papel-parede.png">
+        <h2>Adesivo Vinil 210 x 297 mm (A4)</h2>
+        <h4>R$ 13,54</h4>
+        <p>5 unidades - R$2,71/un.</p>
+      </div>
+    </div>
+
+    <div class="card-produtos" >
+      <div class="content">
+        <img src="img/adesivos/etiqueta-retangular.png">
+        <h2>Adesivos Retangulares</h2>
+        <h4>R$ 160,90</h4>
+        <p>500 unidades - R$0,32/un.</p>
+      </div>
+    </div>
+
+    <div class="card-produtos" >
+      <div class="content">
+        <img src="img/adesivos/adesivo-caixa-rolo.png">
+        <h2>Adesivos Para Negócios</h2>
+        <h4>R$ 30,49</h4>
+        <p>250 unidades - R$0,12/un.</p>
+      </div>
+    </div>
+
+    <div class="card-produtos" >
+      <div class="content">
+        <img src="img/adesivos/adesivo-carro.png">
+        <h2>Adesivos Para Carros 297 x 420mm (A3)</h2>
+        <h4>R$ 12,07</h4>
+        <p>2 unidades - R$6,04/un.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="produtos-adesivo1">
+    <div class="card-produtos" >
+      <div class="content">
+        <img src="img/adesivos/etiqueta%20retangular-rosa.png">
+        <h2>Adesivos Quadrados e Retangulares</h2>
+        <h4>R$ 160,90</h4>
+        <p>500 unidades - R$0,32/un.</p>
+      </div>
+    </div>
+
+    <div class="card-produtos" >
+      <div class="content">
+        <img src="img/adesivos/adesivo-vidro.png">
+        <h2>Adesivos Para Vitrine 297 x 420mm (A3)</h2>
+        <h4>R$ 11,67</h4>
+        <p>2 unidades - R$5,84/un.</p>
+      </div>
+    </div>
+
+    <div class="card-produtos" >
+      <div class="content">
+        <img src="img/adesivos/etiqueta-caixa.png">
+        <h2>Etiquetas de Caixa</h2>
+        <h4>R$ 30,49</h4>
+        <p>250 unidades - R$0,12/un.</p>
+      </div>
+    </div>
+
+    <div class="card-produtos" >
+      <div class="content">
+        <img src="img/adesivos/etiqueta-pacote.png">
+        <h2>Etiquetas Para Sacos</h2>
+        <h4>R$ 30,49</h4>
+        <p>250 unidades - R$0,12/un.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="produtos-adesivo1">
+    <div class="card-produtos" >
+      <div class="content">
+        <img src="img/adesivos/etiqueta-retangular-recorte.png">
+        <h2>Adesivos a Granel</h2>
+        <h4>R$ 30,49</h4>
+        <p>250 unidades - R$0,12/un.</p>
+      </div>
+    </div>
+
+    <div class="card-produtos" >
+        <div class="content">
+          <img src="img/adesivos/adesivo-rolo.png">
+          <h2>Adesivos Redondos</h2>
+          <h4>R$ 30,49</h4>
+          <p>250 unidades - R$0,12/un.</p>
+        </div>
+    </div>
+
+    <div class="card-produtos" >
+      <div class="content">
+        <img src="img/adesivos/adesivo-chao.png">
+        <h2>Adesivo Vinil para Piso 297 x 420mm (A3)</h2>
+        <h4>R$ 37,89</h4>
+        <p>5 unidades - R$7,58/un.</p>
+      </div>
+    </div>
+
+    <div class="card-produtos" >
+      <div class="content">
+        <img src="img/adesivos/adesivo-vela.png">
+        <h2>Adesivos Quadrados</h2>
+        <h4>R$ 36,67</h4>
+        <p>500 unidades - R$0,07/un.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="produtos-adesivo1">
+    <div class="card-produtos" >
+      <div class="content">
+        <img src="img/adesivos/adesivo-rolo.png">
+        <h2>Rótulos</h2>
+        <h4>R$ 30,49</h4>
+        <p>250 unidades - R$0,12/un.</p>
+      </div>
+    </div>
+
+    <div class="card-produtos" >
+      <div class="content">
+        <img src="img/adesivos/adesivo-vitrine.png">
+        <h2>Adesivo Eletrostático 297 x 420mm (A3)</h2>
+        <h4>R$ 65,01</h4>
+        <p>5 unidades - R$13,00/un.</p>
+      </div>
+    </div>
+
+    <div class="card-produtos" >
+      <div class="content">
+        <img src="img/adesivos/adesivo-carne.png">
+        <h2>Etiquetas para Carnes</h2>
+        <h4>R$ 30,49</h4>
+        <p>250 unidades - R$0,12/un.</p>
+      </div>
+    </div>
+
+    <div class="card-produtos" >
+      <div class="content">
+        <img src="img/adesivos/etiqueta-retangular.png">
+        <h2>Adesivos em Bobina</h2>
+        <h4>R$ 30,49</h4>
+        <p>250 unidades - R$0,12/un.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<footer>
+  <div class="rodape-superior">
+    <div class="coluna-rodape">
+      <h4>Redes Sociais</h4>
+      <div class="icones-sociais">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+      </div>
+      <br>
+      <h4>Endereço:</h4>
+      <p>Av.Presidente Getúlio Vargas, 60A, Box:1 - Jardin Tokio, Penápolis - SP, 16306-516</p>
+      <br>
+      <h4>Horário de funcionamento:</h4>
+      <p>08:00 às 18:00</p>
+    </div>
+    <div class="coluna-rodape">
+      <h6 class="ehp-footer__contact-heading">Contatos</h6><p class="ehp-footer__contact-information">(18) 99769-2439 - Whatsapp
+      <br>
+      contatonil233@gmail.com
+      <br><br>
+    </div>
+    <div class="coluna-rodape">
+      <h4>Formas de Pagamento</h4>
+      <div class="icones-pagamento">
+        <i class="fa-brands fa-cc-mastercard"></i>
+        <i class="fa-solid fa-barcode"></i>
+        <i class="fa-brands fa-cc-paypal"></i>
+        <i class="fa-brands fa-cc-visa"></i>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
